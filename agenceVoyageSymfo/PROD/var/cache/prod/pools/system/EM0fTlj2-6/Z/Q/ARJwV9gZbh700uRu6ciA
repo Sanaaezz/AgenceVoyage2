@@ -1,0 +1,122 @@
+<?php //App_Entity_Voyage
+
+return [PHP_INT_MAX, static fn () => \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Symfony\\Component\\Serializer\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\ClassMetadata')),
+        clone ($p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata')),
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+    ],
+    null,
+    [
+        'stdClass' => [
+            'name' => [
+                'App\\Entity\\Voyage',
+                'id',
+                'nom_voyage',
+                'photo_voyage',
+                'duree_voyage',
+                'dateDepart_voyage',
+                'dateRetour_voyage',
+                'visibility_voyage',
+                'prix_voyage',
+                'categorie',
+                'destination',
+                'contact',
+                'description_voyage',
+                'user',
+                'nomVoyage',
+                'photoVoyage',
+                'dureeVoyage',
+                'dateDepartVoyage',
+                'dateRetourVoyage',
+                'visibilityVoyage',
+                'prixVoyage',
+                'descriptionVoyage',
+            ],
+            'attributesMetadata' => [
+                [
+                    'id' => $o[1],
+                    'nom_voyage' => $o[2],
+                    'photo_voyage' => $o[3],
+                    'duree_voyage' => $o[4],
+                    'dateDepart_voyage' => $o[5],
+                    'dateRetour_voyage' => $o[6],
+                    'visibility_voyage' => $o[7],
+                    'prix_voyage' => $o[8],
+                    'categorie' => $o[9],
+                    'destination' => $o[10],
+                    'contact' => $o[11],
+                    'description_voyage' => $o[12],
+                    'user' => $o[13],
+                    'nomVoyage' => $o[14],
+                    'photoVoyage' => $o[15],
+                    'dureeVoyage' => $o[16],
+                    'dateDepartVoyage' => $o[17],
+                    'dateRetourVoyage' => $o[18],
+                    'visibilityVoyage' => $o[19],
+                    'prixVoyage' => $o[20],
+                    'descriptionVoyage' => $o[21],
+                ],
+            ],
+            'groups' => [
+                1 => [
+                    'api_voyage_index',
+                ],
+                [
+                    'api_voyage_show',
+                    'api_voyage_index',
+                ],
+                [
+                    'api_voyage_show',
+                    'api_voyage_index',
+                ],
+                [
+                    'api_voyage_show',
+                    'api_voyage_index',
+                ],
+                [
+                    'api_voyage_index',
+                ],
+                [
+                    'api_voyage_index',
+                ],
+                8 => [
+                    'api_voyage_index',
+                ],
+                [
+                    'api_voyage_index',
+                ],
+                [
+                    'api_voyage_index',
+                ],
+                12 => [
+                    'api_voyage_index',
+                ],
+                [
+                    'api_voyage_index',
+                ],
+            ],
+        ],
+    ],
+    $o[0],
+    []
+)];

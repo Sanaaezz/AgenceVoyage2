@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ parent() }}{% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 20px; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+
+<div class="">
+
+   <a class="log" href="{{ path('app_login') }}"> log in </a>
+    <a class="log" href="{{ path('app_logout') }}"> log out </a>
+
+</div>
+{% endblock %}

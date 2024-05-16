@@ -1,0 +1,138 @@
+<?php //App.Entity.Voyage
+
+return [PHP_INT_MAX, static fn () => \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        (($f = &\Symfony\Component\VarExporter\Internal\Registry::$factories)['Symfony\\Component\\Validator\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::f('Symfony\\Component\\Validator\\Mapping\\ClassMetadata'))(),
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Symfony\\Bridge\\Doctrine\\Validator\\Constraints\\UniqueEntity'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Bridge\\Doctrine\\Validator\\Constraints\\UniqueEntity')),
+        ($f['Symfony\\Component\\Validator\\Mapping\\PropertyMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::f('Symfony\\Component\\Validator\\Mapping\\PropertyMetadata'))(),
+        clone ($p['Symfony\\Component\\Validator\\Constraints\\NotBlank'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Validator\\Constraints\\NotBlank')),
+        clone ($p['Symfony\\Component\\Validator\\Constraints\\Length'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Validator\\Constraints\\Length')),
+        $f['Symfony\\Component\\Validator\\Mapping\\PropertyMetadata'](),
+        clone ($p['Symfony\\Component\\Validator\\Constraints\\Url'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Validator\\Constraints\\Url')),
+    ],
+    null,
+    [
+        'stdClass' => [
+            'constraints' => [
+                [
+                    $o[1],
+                ],
+                2 => [
+                    $o[3],
+                    $o[4],
+                ],
+                5 => [
+                    $o[6],
+                ],
+            ],
+            'constraintsByGroup' => [
+                [
+                    'Default' => [
+                        $o[1],
+                    ],
+                    'Voyage' => [
+                        $o[1],
+                    ],
+                ],
+                2 => [
+                    'Default' => [
+                        $o[3],
+                        $o[4],
+                    ],
+                    'Voyage' => [
+                        $o[3],
+                        $o[4],
+                    ],
+                ],
+                5 => [
+                    'Default' => [
+                        $o[6],
+                    ],
+                    'Voyage' => [
+                        $o[6],
+                    ],
+                ],
+            ],
+            'name' => [
+                'App\\Entity\\Voyage',
+                2 => 'nom_voyage',
+                5 => 'photo_voyage',
+            ],
+            'defaultGroup' => [
+                'Voyage',
+            ],
+            'members' => [
+                [
+                    'nom_voyage' => [
+                        $o[2],
+                    ],
+                    'photo_voyage' => [
+                        $o[5],
+                    ],
+                ],
+            ],
+            'properties' => [
+                [
+                    'nom_voyage' => $o[2],
+                    'photo_voyage' => $o[5],
+                ],
+            ],
+            'payload' => [
+                1 => null,
+                3 => null,
+                null,
+                6 => null,
+            ],
+            'groups' => [
+                1 => [
+                    'Default',
+                    'Voyage',
+                ],
+                3 => [
+                    'Default',
+                    'Voyage',
+                ],
+                [
+                    'Default',
+                    'Voyage',
+                ],
+                6 => [
+                    'Default',
+                    'Voyage',
+                ],
+            ],
+            'message' => [
+                1 => 'Ce nom est déjà utilisé',
+                3 => 'Le nom est obligatoire',
+                6 => 'l\'image ne peux pas etre prise en compte',
+            ],
+            'fields' => [
+                1 => [
+                    'nom_voyage',
+                ],
+            ],
+            'class' => [
+                2 => 'App\\Entity\\Voyage',
+                5 => 'App\\Entity\\Voyage',
+            ],
+            'property' => [
+                2 => 'nom_voyage',
+                5 => 'photo_voyage',
+            ],
+            'maxMessage' => [
+                4 => 'Le nom du voyage ne peut pas avoir plus de 50 caractères.',
+            ],
+            'minMessage' => [
+                4 => 'Le nom doit comporter plus de 4 caractères.',
+            ],
+            'max' => [
+                4 => 50,
+            ],
+            'min' => [
+                4 => 4,
+            ],
+        ],
+    ],
+    $o[0],
+    []
+)];

@@ -1,0 +1,42 @@
+<?php //App_Entity_Categorie
+
+return [PHP_INT_MAX, static fn () => \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Symfony\\Component\\Serializer\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\ClassMetadata')),
+        clone ($p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata')),
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+    ],
+    null,
+    [
+        'stdClass' => [
+            'name' => [
+                'App\\Entity\\Categorie',
+                'id',
+                'nom_categorie',
+                'voyages',
+                'nomCategorie',
+            ],
+            'attributesMetadata' => [
+                [
+                    'id' => $o[1],
+                    'nom_categorie' => $o[2],
+                    'voyages' => $o[3],
+                    'nomCategorie' => $o[4],
+                ],
+            ],
+            'groups' => [
+                1 => [
+                    'api_categorie_index',
+                ],
+                [
+                    'api_categorie_index',
+                    'api_categorie_show',
+                ],
+            ],
+        ],
+    ],
+    $o[0],
+    []
+)];
